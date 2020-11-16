@@ -1,0 +1,68 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3472262007475403255
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3472262007475403211}
+  - component: {fileID: 3472262007475403208}
+  - component: {fileID: 3472262007475403254}
+  m_Layer: 0
+  m_Name: Prefab.GameProperties
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3472262007475403211
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3472262007475403255}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3472262007475403208
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3472262007475403255}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe7cee4eb2fb5204eb8b30ccd6bae23b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gridSize: {x: 8, y: 9}
+--- !u!114 &3472262007475403254
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3472262007475403255}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac77c643ff9a8d3439f066f02cb3ebc0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  materials:
+  - {fileID: 2100000, guid: 6476c961c8d4e044db6e55a3e40292ed, type: 2}
+  - {fileID: 2100000, guid: 0866c15455137614e855c606f35f6d09, type: 2}
+  - {fileID: 2100000, guid: 0998dafa2628547489e9b0c916453054, type: 2}
+  - {fileID: 2100000, guid: ae9a78b983980f14e8f23925255b90e5, type: 2}
+  - {fileID: 2100000, guid: 6ea2eee7ee5f06946b830bb8cb006c27, type: 2}
+  hexagonFramePrefab: {fileID: 7593118183198759303, guid: 54d69a5aa3cc6fa468346b57a434405e, type: 3}
+  hexagonBombPrefab: {fileID: 919132149155446097, guid: 5ec35409638699b429290e4484b962ee, type: 3}
+  hexagonBombCounterPrefab: {fileID: 5962423008166654894, guid: 9833fc605eccfe94a82f63a6a62b7031, type: 3}
