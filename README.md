@@ -1,4 +1,4 @@
-### Note: If game scene is empty on project launch, switch to Scenes/Main.Scene.
+<b><i>Note: If game scene is empty on project launch, switch to Scenes/Main.Scene.</i></b>
 
 
 # Hexfall replicate made with Unity.
